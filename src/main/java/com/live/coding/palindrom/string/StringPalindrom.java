@@ -1,6 +1,8 @@
 package com.live.coding.palindrom.string;
 /**
  * String Palindrome abba
+ * for loop
+ * recursive test ele
  * */
 public class StringPalindrom {
     public static void main(String[] args) {
