@@ -17,7 +17,7 @@ import java.util.List;
 public class FizzyBuzz {
     static List<String> fizzBuzz = new ArrayList<String>();
     public static void main(String[] args) {
-        checkNumber(20);
+        checkNumber(36);
         System.out.println(fizzBuzz);
     }
 
