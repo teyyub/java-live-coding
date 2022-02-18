@@ -1,4 +1,4 @@
-package com.live.coding.collections.Collections.sets.treesets;
+package com.live.coding.collections.sets.treesets;
 
 import java.util.TreeSet;
 

@@ -1,4 +1,4 @@
-package com.live.coding.collections.Collections.sets.hasshets;
+package com.live.coding.collections.sets.hasshets;
 
 import java.util.HashSet;
 import java.util.Iterator;
