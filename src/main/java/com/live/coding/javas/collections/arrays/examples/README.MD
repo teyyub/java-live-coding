@@ -14,3 +14,8 @@ https://javascript.plainenglish.io/performance-of-arrays-and-objects-in-javascri
 https://developerinsider.co/big-o-notation-explained-with-examples/
 https://yourbasic.org/algorithms/big-o-notation-explained/
 https://www.educative.io/blog/data-structures-algorithms
+
+https://stackoverflow.com/questions/2099695/is-a-java-array-of-primitives-stored-in-stack-or-heap
+https://stackoverflow.com/questions/5564423/arrays-in-java-and-how-they-are-stored-in-memory
+https://www.pepcoding.com/resources/online-java-foundation/function-and-arrays/arrays_memory_management/topic
+https://ofstack.com/Java/7033/several-methods-for-memory-allocation-in-java.html
