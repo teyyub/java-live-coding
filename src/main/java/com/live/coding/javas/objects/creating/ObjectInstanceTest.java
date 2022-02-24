@@ -52,14 +52,14 @@ public class ObjectInstanceTest extends Object {
     }
 
     public static void main(String[] args) {
-        ObjectInstanceTest ob1 = new ObjectInstanceTest(32,"teyyub");
-        ObjectInstanceTest ob2 = new ObjectInstanceTest(32,"teyyub");
-        System.out.println(ob1.hashCode());
-        System.out.println(ob2.hashCode());
-        System.out.println(ob1.equals(ob2));
-        System.out.println("reference eyni olanda equal olur");
-        Object ob3 = ob2;
-        System.out.println(ob3.equals(ob2));
+        try {
+            Class ob1 = Class.forName("com.live.coding.javas.objects.creating.ObjectInstanceTest");
+            Class ob2 = Class.forName("com.live.coding.javas.objects.creating.ObjectInstanceTest");
 
+            ObjectInstanceTest objectName = (ObjectInstanceTest) ob1.newInstance();
+            System.out.println(objectName.name);
+        } catch (Exception e){
+            System.out.println("exception "+e);
+        }
     }
 }
