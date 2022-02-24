@@ -40,4 +40,13 @@ public class Employee implements Cloneable{
     public void setDepartment(Department department) {
         this.department = department;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "empoyeeId=" + empoyeeId +
+                ", employeeName='" + employeeName + '\'' +
+                ", department=" + department +
+                '}';
+    }
 }
