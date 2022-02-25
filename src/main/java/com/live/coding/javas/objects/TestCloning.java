@@ -12,11 +12,11 @@ public class TestCloning
         Employee cloned = (Employee) original.clone();
         Employee emp1 = original;
 
-        System.out.println(original==emp1);
-        System.out.println(">>>>>>>>>>>>>>>>>>>");
-
-        //Let verify using employee id, if cloning actually workded
-        System.out.println(cloned.getEmpoyeeId());
+//        System.out.println(original==emp1);
+//        System.out.println(">>>>>>>>>>>>>>>>>>>");
+//
+//        //Let verify using employee id, if cloning actually workded
+//        System.out.println(cloned.getEmpoyeeId());
 
 
         System.out.println(original==cloned);
@@ -32,7 +32,18 @@ public class TestCloning
         //Default equals method checks for references so it should be false. If we want to make it true,
         //then we need to override equals method in Employee class.
         System.out.println(original.equals(cloned));
+        System.out.println(original.hashCode());
+        System.out.println(cloned.hashCode());
 
-        System.out.println("cloned " +cloned);
+        cloned.setEmployeeName("teyyub");
+        System.out.println(original);
+        System.out.println(cloned);
+
+
+        cloned.getDepartment().setName("test");
+
+        System.out.println(original);
+        System.out.println(cloned);
+
     }
 }
