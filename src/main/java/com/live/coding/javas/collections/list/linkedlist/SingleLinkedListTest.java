@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class SingleLinkedListTest {
     public static void main(String[] args) {
-        LinkedList<String> list=new LinkedList<String>();
+        LinkedList<String> list=new LinkedList();
 
         //Adding elements to the Linked list
         list.add("Steve");

@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class HashTableTest {
     public static void main(String[] args) {
-        Map<Integer,String> hm=new Hashtable<Integer,String>();
+        Map<Integer,String> hm=new Hashtable();
 
         hm.put(100,"Amit");
         hm.put(102,"Ravi");
