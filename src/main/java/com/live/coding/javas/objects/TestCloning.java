@@ -1,6 +1,6 @@
 package com.live.coding.javas.objects;
 
-public class TestCloning
+public class TestCloning extends Object
 {
 
     public static void main(String[] args) throws CloneNotSupportedException

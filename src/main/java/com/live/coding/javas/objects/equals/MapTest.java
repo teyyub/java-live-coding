@@ -7,9 +7,14 @@ public class MapTest {
     public static void main(String[] args) {
         Map<Person,String> maps = new HashMap<>();
         Person p1 = new Person("teyyub",32);
-        Person p2 = new Person("teyyub" ,12);
+        Person p2 = new Person("teyyub" ,32);
+        Person p3 =p2;
 
-
+        System.out.println(p1==p2);
+        System.out.println(p1.equals(p2));
+        System.out.println(p2.equals(p3));
+        System.out.println(p2.hashCode());
+        System.out.println(p3.hashCode());
 
         System.out.println("p1.hashcode " +p1.hashCode());
         System.out.println("p2.hashcode " +p2.hashCode());
@@ -18,6 +23,9 @@ public class MapTest {
         System.out.println("=====================");
         maps.put(p1,"duzdur");
         maps.put(p2,"sehvdir");
+
+        System.out.println("map size + " +maps.size());
+
         System.out.println("======================");
         System.out.println(maps.get(p1));
         System.out.println(maps.get(p2));
@@ -31,5 +39,7 @@ public class MapTest {
         System.out.println(maps.get(p2));
         System.out.println(p1.toString());
         System.out.println(p2.toString());
+
+
     }
 }

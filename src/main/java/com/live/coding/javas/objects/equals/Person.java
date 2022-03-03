@@ -1,5 +1,7 @@
 package com.live.coding.javas.objects.equals;
 
+import java.util.Objects;
+
 /**
  * https://www.journaldev.com/21095/java-equals-hashcode
  * */
@@ -61,8 +63,16 @@ public class Person {
     @Override
     public int hashCode() {
         int hash = 7;
-//        hash = 31 * hash + this.age;
-        return this.age;
+        hash = 31 * hash + this.age;
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return age == person.age && Objects.equals(name, person.name) && Objects.equals(a, person.a);
     }
 
     @Override

@@ -8,11 +8,9 @@ import java.util.Arrays;
 
 public class ArrayTest {
     public static void main(String[] args) {
-        int a = Integer.MAX_VALUE-1;
+        int a = Integer.MAX_VALUE;
         System.out.println(a);
         int[] arry = new int[214748364];
         System.out.println(arry.length);
-
-
     }
 }

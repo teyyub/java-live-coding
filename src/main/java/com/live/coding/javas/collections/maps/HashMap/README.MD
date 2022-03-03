@@ -1,1 +1,2 @@
-https://www.javatpoint.com/working-of-hashmap-in-java#:~:text=HashMap%20is%20a%20part%20of,uses%20a%20technique%20called%20Hashing.&text=HashMap%20contains%20an%20array%20of,for%20storing%20Key%20and%20Value.
+https://www.javatpoint.com/working-of-hashmap-in-java
+https://www.baeldung.com/java-hashmap
