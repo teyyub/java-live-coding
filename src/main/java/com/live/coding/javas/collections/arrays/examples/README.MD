@@ -19,3 +19,6 @@ https://stackoverflow.com/questions/2099695/is-a-java-array-of-primitives-stored
 https://stackoverflow.com/questions/5564423/arrays-in-java-and-how-they-are-stored-in-memory
 https://www.pepcoding.com/resources/online-java-foundation/function-and-arrays/arrays_memory_management/topic
 https://ofstack.com/Java/7033/several-methods-for-memory-allocation-in-java.html
+
+
+https://stackoverflow.com/questions/37120776/accessing-elements-really-o1
