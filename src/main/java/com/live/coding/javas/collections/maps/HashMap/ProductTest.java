@@ -6,7 +6,7 @@ import java.util.Map;
 public class ProductTest {
 
     public static void main(String[] args) {
-        Map<String, Product> productsByName = new HashMap<>();
+        Map<String, Product> productsByName = new HashMap<>(Integer.MAX_VALUE);
         Product eBike = new Product("E-Bike", "A bike with a battery");
         Product roadBike = new Product("Road bike", "A bike for competition");
         productsByName.put(eBike.getName(), eBike);
@@ -24,6 +24,8 @@ public class ProductTest {
 
         Product nextPurchase = productsByName.get(null);
         System.out.println(nextPurchase);
+
+
 
     }
 
